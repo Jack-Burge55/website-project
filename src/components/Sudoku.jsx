@@ -10,7 +10,7 @@ function Sudoku() {
             type = "text"
             value={temp}
             className="square"
-            onChange={(e) => "123456789".includes(e.target.value.slice(-1)) ? setTemp(e.target.value.slice(-1)) : setTemp(e.target.value.slice(1))}
+            onChange={(e) => "123456789".includes(e.target.value.slice(-1)) && setTemp(e.target.value.slice(-1))}
             />
         );
       }
