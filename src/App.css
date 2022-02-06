@@ -1,38 +1,58 @@
-.App {
-  text-align: center;
+html {
+  background-color: rgb(188, 255, 252);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1, h2, h3 {
+  color: rgb(0, 0, 0);
+  margin: 0 auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1 {
+  font-size: 80px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+.main {
   display: flex;
+  min-height: 100vh;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 80%;
+  margin: 0 auto;
+  min-width: 1000px;
 }
 
-.App-link {
-  color: #61dafb;
+.section {
+  flex: 1;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#Lucy {
+  margin: 0 auto;
+  width: 30%;
+  border: 5px solid rgb(247, 231, 11);
+}
+
+.divBack {
+  background-color: white;
+  flex: 1;
+  height: 50px;
+}
+
+.square {
+  display: inline;
+  width: 3rem;
+  height: 3rem;
+  text-align: center;
+  text-decoration: solid;
+}
+
+.SudokuRow {
+  margin: 0 auto;
+  width: 50%;
 }
